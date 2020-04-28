@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://netlify"
+    "homepage": "https://5ea870fda99f5879f85d73a3--abiola-ojo.netlify.app/"
   },
   "eslintConfig": {
     "extends": "react-app"
