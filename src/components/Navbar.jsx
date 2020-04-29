@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const history = useHistory();
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand text-primary" to="/">
@@ -22,24 +21,12 @@ const Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li
-            className={
-              history.location.pathname === "/projects"
-                ? "nav-item"
-                : "nav-item active"
-            }
-          >
+          <li className={"nav-item"}>
             <Link className="nav-link" to="/">
               Home <span class="sr-only">(current)</span>
             </Link>
           </li>
-          <li
-            className={
-              history.location.pathname === "/projects"
-                ? "nav-item active"
-                : "nav-item"
-            }
-          >
+          <li className={"nav-item"}>
             <Link className="nav-link" to="/projects">
               Projects
             </Link>
