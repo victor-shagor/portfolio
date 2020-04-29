@@ -1,5 +1,4 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 import Cards from "./Cards";
 import react1 from "../assets/img/react.PNG";
 import react2 from "../assets/img/react1.PNG";
@@ -7,7 +6,6 @@ import react3 from "../assets/img/react3.PNG";
 import { Cardiv } from "./styled-component";
 
 const ReactProject = () => {
-  const history = useHistory();
   return (
     <div className="row mt-4 mb-4">
       <div className="row mx-auto d-flex justify-content-around">
