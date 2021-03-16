@@ -1,8 +1,8 @@
 import React from "react";
 import Cards from "./Cards";
-import react1 from "../assets/img/react.png";
-import react2 from "../assets/img/react1.png";
-import react3 from "../assets/img/react3.png";
+import react1 from "../assets/img/react.PNG";
+import react2 from "../assets/img/react1.PNG";
+import react3 from "../assets/img/react3.PNG";
 import { Cardiv } from "./styled-component";
 
 const ReactProject = () => {
