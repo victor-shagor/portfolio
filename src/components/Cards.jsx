@@ -5,11 +5,16 @@ const Cards = (props) => {
   return (
     <div
       className="card col-sm-4 shadow mb-3"
-      style={{
+      style={
+    props.info ? {
         maxWidth: "20rem",
         minHeight: '20rem',
         maxHeight: '20rem'
-      }}
+      }
+    :{
+    maxWidth: "20rem",
+    }
+    }
       onClick={props.onClick}
     >
       <img className="card-img-top" src={props.image} alt="" />
