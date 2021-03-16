@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import picture from "../assets/img/picture.jpeg";
-import { Slide, Fade } from "@material-ui/core";
+import { Slide } from "@material-ui/core";
 import { Link } from "react-router-dom";
 
 const Home = () => {
