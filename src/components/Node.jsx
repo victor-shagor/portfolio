@@ -27,10 +27,10 @@ const Node = () => {
         <Cardiv className="mr-3">
           <Cards
             image={node}
-            info={`Node backend for a bus booking app,where users can book, cancel bus trips and `}
+            info={"Worked on the server side of this Resume building application"}
             onClick={() => {
               const win = window.open(
-                "https://github.com/victor-shagor/bus-connect",
+                "https://www.resume.com",
                 "_blank"
               );
               if (win != null) {
@@ -43,11 +43,11 @@ const Node = () => {
           <Cards
             image={node}
             info={
-              "Node backend for an hostel management app, where admin can see booking in real time"
+              "Worked on the backend of this loan application web app"
             }
             onClick={() => {
               const win = window.open(
-                "https://github.com/victor-shagor/hostel-booking",
+                "https://beta.scorethebusiness.com",
                 "_blank"
               );
               if (win != null) {
