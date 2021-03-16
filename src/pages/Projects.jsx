@@ -25,7 +25,6 @@ const Projects = () => {
             <Link
               to="#"
               onClick={() => setToggle("node")}
-              type="button"
               style={
                 toggle === "node"
                   ? {
