@@ -7,6 +7,8 @@ const Cards = (props) => {
       className="card col-sm-4 shadow mb-3"
       style={{
         maxWidth: "20rem",
+        minHeight: '20rem',
+        maxHeight: '20rem'
       }}
       onClick={props.onClick}
     >
