@@ -1,8 +1,8 @@
 import React from "react";
 import Cards from "./Cards";
-import react1 from "../assets/img/react.PNG";
-import react2 from "../assets/img/react1.PNG";
-import react3 from "../assets/img/react3.PNG";
+import react1 from "../assets/img/react.png";
+import react2 from "../assets/img/react1.png";
+import react3 from "../assets/img/react3.png";
 import { Cardiv } from "./styled-component";
 
 const ReactProject = () => {
@@ -14,7 +14,7 @@ const ReactProject = () => {
             image={react1}
             onClick={() => {
               const win = window.open(
-                "https://suz-frontend-git-ft-postcategory.compexafrica1.now.sh",
+                "https://startupzone.compexafrica.com/",
                 "_blank"
               );
               if (win != null) {
@@ -38,7 +38,7 @@ const ReactProject = () => {
           <Cards
             image={react3}
             onClick={() => {
-              const win = window.open("https://www.bus-connect.me", "_blank");
+              const win = window.open("https://www.resume.com", "_blank");
               if (win != null) {
                 win.focus();
               }
